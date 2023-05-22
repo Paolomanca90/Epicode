@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presentazione Paolo Manca</title>
+    <style>
+      span {
+        font-style: italic;
+      }
+
+      #footer {
+        margin-top: 40px;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+      }
+
+      img {
+        margin-top: 10px;
+      }
+
+      h1 {
+        background-color: blue;
+        color: aliceblue;
+        margin-bottom: 2px;
+      }
+
+      h1,
+      h2,
+      .footer-ref {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+      }
+
+      .competence {
+        margin-top: 10px;
+        background-color: rgb(38, 38, 184);
+        color: aliceblue;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      table {
+        border-collapse: collapse;
+        background-color: aliceblue;
+      }
+
+      td,
+      th {
+        border: 1px solid #080808;
+        padding: 8px;
+      }
+
+      body {
+        background-color: lightskyblue;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Paolo Leucio Manca</h1>
+    <h2>paolomanca1990@gmail.com</h2>
+    <a class="footer-ref" href="#footer" alt="fine pagina">Scorri giù</a>
+    <main>
+      <a href="#immagine">
+        <img
+          src="https://scontent.fcia5-1.fna.fbcdn.net/v/t39.30808-6/336377410_670191281582744_3406985833306981909_n.jpg?_nc_cat=110&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vh0690KfiVAAX9uuyrY&_nc_ht=scontent.fcia5-1.fna&oh=00_AfDbphYfpMbB9Qmz5TIhp2LSs97boy0oy9XHWUL_sjpVzQ&oe=6470FF63"
+          alt="foto profilo"
+          height="400px"
+        />
+      </a>
+      <p>
+        Ciao ragazzi mi chiamo Paolo Leucio Manca ma dopo aver passato quasi 8
+        anni in IKEA con lo user PAMAN me lo porto dietro ovunque. Sono un
+        ragazzo di 33 anni e abito a Pisa ormai da 14, ma sono originario della
+        Campania, per la precisione di un piccolo paesino di nome
+        <a
+          href="https://www.google.com/search?gs_ssp=eJzj4tTP1TdISqs0SDFg9OIpSc1JLU5VKEktyk0FAGMHCCo&q=telese+terme&rlz=1C1CHWL_itIT1000IT1000&oq=telese+&aqs=chrome.1.69i57j46i131i433i512j46i175i199i512j0i512j46i175i199i512l2j46i512j46i175i199i512j0i512.2762j0j7&sourceid=chrome&ie=UTF-8"
+          >Telese Terme</a
+        >
+        che vi invito a scoprire almeno online. Sono una persona molto
+        riflessiva, organizzata, amante degli animali (ho 2 gatti e 1 coniglio)
+        e soprattutto dell'elettronica. Nonostante tutto la passione che ho
+        trasformato per anni nel mio secondo lavoro riguarda il mondo della
+        miscelazione. Ebbene si sono un patito di bar e tutto ciò che ci gira
+        intorno.
+      </p>
+      <p>
+        Oltre alla passione per il bartending mi piace leggere e studiare il
+        mondo della mente e del mindset. Mi aiuta a capire le persone e ottenere
+        un costante miglioramento e crescita personale. Sono anche un
+        appassionato di sport e della mia Inter e come hobby oltre a seguire le
+        partite le studio. Analizzo i dati e le statistiche per divertirmi a
+        fare il tipster. Ah dimenticavo la mia passione che ormai mi accompagna
+        da anni è la palestra. Seguo una preparazione per puntare a fare qualche
+        gara magari anche entro la fine di quest'anno. I dolci invece non li
+        metto tra gli hobby e le passioni altrimenti non mi credete sul discorso
+        palestra.
+      </p>
+      <p>
+        Dopo aver iniziato la mia carriera universitaria in ingegneria
+        elettronica ho un po' abbandonato questa strada per dedicarmi
+        all'acquisizione di altre skills. Come vedete però ho deciso di tornare
+        sui miei passi e buttarmi di nuovo a capofitto in questo splendido
+        mondo. Per cui eccomi qui a partecipare al corso di Full Stack
+        Developer.
+      </p>
+      <span>
+        DAI UN'OCCHIATA AL MIO PROFILO
+        <a
+          href="https://www.linkedin.com/in/paolo-manca-26305617b/"
+          alt="profilo linkedin"
+        >
+          LINKEDIN</a
+        >
+      </span>
+      <div class="competence">
+        <h3>LE MIE COMPETENZE</h3>
+        <ul>
+          <li>EXCEL</li>
+          <li>ANALISI DEI DATI</li>
+          <li>VALUTAZIONE DEI COSTI</li>
+          <li>GESTIONE DEL PERSONALE</li>
+          <li>NEGOZIAZIONE</li>
+          <li>ANALISI DI MERCATO</li>
+          <li>TEAM LEADERSHIP</li>
+          <li>GESTIONE DEL PERSONAL</li>
+        </ul>
+        <h3>COMPETENZE DA ACQUISIRE</h3>
+        <ol>
+          <li>PROGRAMMAZIONE</li>
+          <li>ORGANIZZAZIONE DEL RELAX</li>
+          <li>GESTIONE DEL MINDSET</li>
+        </ol>
+      </div>
+      <table>
+        <caption>
+          <p>ESPERIENZE LEAVORATIVE</p>
+        </caption>
+        <thead>
+          <tr>
+            <th>AZIENDA</th>
+            <th>RUOLO</th>
+            <th>DATA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>IKEA</td>
+            <td>Sales and Supply Support</td>
+            <td>08/2014 - 11/2021</td>
+          </tr>
+          <tr>
+            <td>ZONA MARKET</td>
+            <td>Trasport Planner</td>
+            <td>11/2021 - 03/2022</td>
+          </tr>
+          <tr>
+            <td>IL MATTONE</td>
+            <td>Consulente Immobiliare</td>
+            <td>04/2022 - 05/2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer id="footer">Copyright Paolo Leucio Manca</footer>
+  </body>
+</html>
